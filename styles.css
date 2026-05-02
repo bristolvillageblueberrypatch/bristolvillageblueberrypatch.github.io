@@ -7,18 +7,34 @@
   text-align: center;
   background-color: antiquewhite;
 }
+
+@media only screen and (max-width: 1024px) {
 .header {
   background-image: url(headerbackground.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   border-bottom: 2px solid rgb(41, 34, 78);
+  font-size: 50px;
+  /* border-left: 10vw solid rgb(41, 34, 78);
+  border-right: 10vw solid rgb(41, 34, 78); */
+  height: 40vh;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.header {
+  background-image: url(headerbackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  border-bottom: 2px solid rgb(41, 34, 78);
+  font-size: 50px;
   /* border-left: 10vw solid rgb(41, 34, 78);
   border-right: 10vw solid rgb(41, 34, 78); */
   height: 75vh;
 }
-
-
+}
 
 
 @media only screen and (max-width: 1024px) {
